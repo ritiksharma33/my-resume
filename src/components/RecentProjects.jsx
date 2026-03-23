@@ -17,10 +17,11 @@ const RecentProjects = () => {
 
   return (
     <div className="py-20" id="projects">
-      <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
-      </h1>
+      
+       
+      <h2 className="text-4xl font-semibold  bg-black text-white text-center">
+        🚀 Projects
+      </h2>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => {
