@@ -303,6 +303,21 @@ const socialImgs = [
     link: "https://github.com/ritiksharma33/SecureSign",
     status: "live",
   },
+  {
+    id: 5,
+    title: "SOAR HUB",
+    des: "Automated Security Intelligence Hub for IP, Domain, and Malware Hash Enrichment.",
+    img: "/soar.png", // Make sure to add a screenshot of your dashboard here!
+    iconLists: [
+      "/re.svg",      // React
+      "/py.svg",      // Python
+      "/tail.svg",    // Tailwind (if you used it, otherwise FastAPI icon)
+      "/js.svg", // FastAPI
+           // Git/GitHub
+    ],
+    link: "https://github.com/ritiksharma33/security-alert-enrichment-tool",
+    status: "live",
+  },
 
 ];
 
